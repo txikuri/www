@@ -97,7 +97,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+  background: url('../img/grid.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
 
+h1{
+  font-family: 'Yeseva One', cursive;
+  font-size: 45px; 
+  color: #f8efe8; 
+  margin: 28px 0 0 0;
+}
+
+#header, #footer{
+  background-color: #950A13;
+  height: 120px;
+}
+
+#content{
+  background-color: rgba(168,71,25,0.3);
+  height: 710px;
+}
+
+#navigation{
+  color:  #f8efe8;
+  list-style-type: none;
+}
+
+#navigation li{
+  display: inline-block;
+  margin: 36px 24px 0 0;
+  font-size: 24px;
+}
+
+.copy-font{
+  font-family: 'DM Sans';
+}
+
+#desc{
+  text-align: center;
+  font-size: 30px;
+  color: #f8efe8;
+  background-color: rgba(178, 71, 25, 0.5);
+  margin: 30% 0 0 0;
+}
+
+#footer{
+  height: 90px;
+}
+
+#featured{
+  width: 300px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
