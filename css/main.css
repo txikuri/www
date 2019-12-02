@@ -109,6 +109,12 @@ textarea {
   overflow-y:hidden;
 }
 
+#contact{
+  background: url('../img/grid.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow-y:hidden;
+}
+
 #work{
   background-color: #FFF;
 }
@@ -130,12 +136,12 @@ textarea {
   color: #FFF; 
   font-family: 'Righteous', cursive;
   font-size: 45px; 
-  margin: 28px 0 0 0;
+  margin: 24px 0 0 0;
   list-style-type: none;
   text-decoration: none;
 }
 
-#header, #footer{
+#header{
   background-color: #FF6301;
   height: 120px;
 }
@@ -172,6 +178,28 @@ textarea {
 
 }
 
+#conlinks{
+  text-align: left;
+  color: #FFF;
+  background-color: rgba(255, 99, 1, 0.5);
+  height: 100%;
+  margin: 0 0 0 0;
+  padding: 20% 20% 0 10%;
+  list-style-type: none;
+}
+
+#conlinks li{
+  display: block;
+  color: #FFF;
+  margin: 30px 24px 0 0;
+  font-size: 90px;
+}
+
+#conlinks a{
+  color:#FFF;
+
+}
+
 .copy-font{
   font-family: 'DM Sans';
 }
@@ -197,8 +225,9 @@ textarea {
 }
 
 #footer{
+  background-color: #FF6301;
   height: 90px;
-  width: 100%;
+  width: 1920px;
 }
 
 #copyright{
@@ -210,6 +239,16 @@ textarea {
 
 #featured{
   width: 300px;
+}
+
+@media (max-width: 700px) {
+
+
+  body{
+    background: url('') no-repeat center center fixed;
+
+}
+
 }
 /* ==========================================================================
    Helper classes
